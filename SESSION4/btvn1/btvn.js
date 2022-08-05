@@ -17,19 +17,18 @@
 // console.log(a);
 
 //bài 3
-// let nhap=prompt(` Hãy nhập bất kì chữ hoa hoặc thường`);
-// var letters = [nhap];
-
-// for (var i = 0; i<letters.length; i++) {
+// let letters = prompt("Input");
+// let str = "";
+// for (let i = 0; i<letters.length; i++) {
 //     if (letters[i] === letters[i].toUpperCase()
 //         && letters[i] !== letters[i].toLowerCase()) {
-//         letters[i] = letters[i].toLowerCase();
+//         str = str + letters[i].toLowerCase();
 //     } else {
-//         letters[i] = letters[i].toUpperCase();
+//       str = str + letters[i].toUpperCase();
 //     }
 // }
 
-// console.log(letters)
+// console.log(str)
 
  
 //bài 4
